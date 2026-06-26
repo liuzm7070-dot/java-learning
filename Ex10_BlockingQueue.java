@@ -51,5 +51,9 @@ public class Ex10_BlockingQueue {
 }
 
 class BlockingQueue<T> {
-    // TODO
+    // TODO: synchronized + wait/notifyAll 实现阻塞 put/take
+    public BlockingQueue(int capacity) {}
+    public synchronized void put(T item) {}
+    public synchronized T take() { return null; }
+    public synchronized int size() { return 0; }
 }

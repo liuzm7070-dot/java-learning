@@ -19,7 +19,8 @@ public class Ex07_StreamFilter {
     record Person(String name, int age, int salary) {}
 
     public static List<String> highEarners(List<Person> people) {
-        // TODO: 一行 Stream 链式调用
+        // TODO: filter(age>25) → sorted(salary desc) → map(name uppercase) → collect
+        return List.of(); // 占位
     }
 
     public static void main(String[] args) {

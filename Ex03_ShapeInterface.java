@@ -17,7 +17,8 @@ public class Ex03_ShapeInterface {
     // TODO: class Rectangle implements Shape
 
     public static Shape largestShape(Shape[] shapes) {
-        // TODO
+        // TODO: 返回面积最大的 Shape
+        return shapes[0]; // 占位
     }
 
     public static void main(String[] args) {
@@ -31,3 +32,8 @@ public class Ex03_ShapeInterface {
         // Circle(5) 面积 ≈ 78.54，最大
     }
 }
+
+// 占位 — 请补充完整
+interface Shape { double area(); }
+class Circle implements Shape { Circle(double r) {} public double area() { return 0; } }
+class Rectangle implements Shape { Rectangle(double w, double h) {} public double area() { return 0; } }

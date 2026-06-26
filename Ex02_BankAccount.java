@@ -11,7 +11,7 @@
  * 考察：类定义、构造方法、方法、toString
  */
 public class Ex02_BankAccount {
-    // TODO: 定义 BankAccount 类
+    // TODO: 补充 BankAccount 类的字段、构造方法、deposit/withdraw/transfer/toString
 
     public static void main(String[] args) {
         BankAccount alice = new BankAccount("Alice", 1000);
@@ -24,4 +24,13 @@ public class Ex02_BankAccount {
         boolean ok = bob.withdraw(9999);
         System.out.println(ok);    // 期望: false
     }
+}
+
+// 占位类——请完善它
+class BankAccount {
+    BankAccount(String owner, double balance) {}
+    public void deposit(double amount) {}
+    public boolean withdraw(double amount) { return false; }
+    public void transfer(BankAccount target, double amount) {}
+    @Override public String toString() { return "TODO"; }
 }

@@ -33,5 +33,8 @@ public class Ex09_LRUCache {
 }
 
 class LRUCache {
-    // TODO
+    // TODO: HashMap + 双向链表，实现 get/put O(1)
+    public LRUCache(int capacity) {}
+    public int get(int key) { return -1; }
+    public void put(int key, int value) {}
 }

@@ -12,7 +12,8 @@ import java.util.*;
 
 public class Ex04_WordCount {
     public static Map<String, Integer> wordCount(String text) {
-        // TODO
+        // TODO: 统计词频，按次数降序返回
+        return new LinkedHashMap<>(); // 占位
     }
 
     public static void main(String[] args) {

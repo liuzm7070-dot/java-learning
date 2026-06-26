@@ -12,7 +12,8 @@
  */
 public class Ex05_SafeDivide {
     public static int safeDivide(String a, String b) {
-        // TODO
+        // TODO: 用 try-catch 处理 NumberFormatException 和 ArithmeticException
+        return -1; // 占位
     }
 
     public static void main(String[] args) {

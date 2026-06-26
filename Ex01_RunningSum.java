@@ -10,7 +10,8 @@
  */
 public class Ex01_RunningSum {
     public static int[] runningSum(int[] nums) {
-        // TODO
+        // TODO: 返回前缀和数组
+        return new int[0]; // 占位，删掉这行写你的代码
     }
 
     public static void main(String[] args) {
